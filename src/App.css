@@ -1,0 +1,148 @@
+*{
+  
+}
+.App {
+  text-align: center;
+  margin: 10rem;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  
+}
+.kate{
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 20rem;
+  border-color: hsl(210, 32%, 91%);
+}
+.flexbox{
+  width: 200px;
+  height: 600px;
+
+
+}
+.identity{
+  background-color: rgb(112, 112, 185);
+  height: 400px;
+  border-radius: 20px;
+  color: #f3eeee;
+
+}
+.identity h4{
+  padding: 1px;
+  margin: 10px;
+}
+.identity h2{
+  font: 1em sans-serif;
+  font-size: large;
+}
+.reports{
+  background-color: rgb(14, 14, 44);
+  border-radius: 20px;
+  height: 200px;
+  padding-top: 20px;
+  color: #6e6262;
+
+}
+.reports li{
+  padding: 10px;
+  list-style-type: none;
+}
+.reports li:hover{
+  color: #f3eeee;
+  cursor: pointer;
+}
+.box{
+  background-color: rgb(29, 29, 66);
+  color: #f3eeee;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+.box .color1{
+  width: 200px;
+  height: 40px;
+  background-color: indianred;
+  border-radius: 20px;
+}
+
+.box .menu {
+  display: flex;
+  gap: 5px;
+  margin-left: 30px;
+}
+
+
+.dot {
+  margin-top: 10px;
+  padding-left: 85px;
+  width: 3px;
+  height: 5px;
+  font-size: larger;
+  border-radius: 20px;
+  font-weight: bolder;
+  
+}
+
+.box .menu .wrk{
+  padding-top: 20px;
+  font-size: 22px;
+
+
+}
+.box h1{
+  font: 1em sans-serif;
+  font-size: larger;
+  margin-right: 70px;
+}
+.box h4{
+  color: rgb(155, 150, 150);
+}
+
+
+.box .color2 {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(45, 133, 23);
+  border-radius: 20px;
+}
+
+.dot2 {
+  margin-top: 10px;
+  padding-left: 50px;
+  width: 3px;
+  height: 5px;
+  font-size: larger;
+  border-radius: 20px;
+  font-weight: bolder;
+  
+}
+.box .color3 {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(23, 133, 118);
+  border-radius: 20px;
+}
+.box  .color4 {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(78, 6, 78);
+  border-radius: 20px;
+}
+.box  .color5 {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(248, 43, 248);
+  border-radius: 20px;
+}
+.box  .color6 {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(158, 158, 5);
+  border-radius: 20px;
+}

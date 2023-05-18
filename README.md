@@ -19,5 +19,6 @@ To make a flex container display: flex;
 
 By default, flex-direction is row. We can change the flex-direction to
 
-flex-direction: row || row-reverse || column || column-reverse
-<img src="..public/images/screenshot.png" alt="flexbox"/>
+#### flex-direction: row || row-reverse || column || column-reverse
+
+<img src="./src/img/screenshot.png" alt="flexbox"/>

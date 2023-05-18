@@ -1,12 +1,13 @@
 *{
-  
+
 }
 .App {
-  text-align: center;
-  margin: 10rem;
+ text-align: center;
+  margin: 8rem;
   display: flex;
   width: 1000px;
   height: 600px;
+  position: relative;
   
 }
 .kate{
@@ -57,7 +58,7 @@
   background-color: rgb(29, 29, 66);
   color: #f3eeee;
   width: 200px;
-  height: 200px;
+  height: 210px;
   border-radius: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -75,12 +76,14 @@
   display: flex;
   gap: 5px;
   margin-left: 30px;
+  padding-top: 5px;
 }
 
 
+
 .dot {
-  margin-top: 10px;
-  padding-left: 85px;
+  margin-top: 15px;
+  padding-left: 75px;
   width: 3px;
   height: 5px;
   font-size: larger;
@@ -88,10 +91,10 @@
   font-weight: bolder;
   
 }
-
 .box .menu .wrk{
   padding-top: 20px;
-  font-size: 22px;
+  font-size: 25px;
+  margin-right: 1px;
 
 
 }
@@ -113,8 +116,8 @@
 }
 
 .dot2 {
-  margin-top: 10px;
-  padding-left: 50px;
+  margin-top: 15px;
+  padding-left: 20px;
   width: 3px;
   height: 5px;
   font-size: larger;
@@ -145,4 +148,112 @@
   height: 40px;
   background-color: rgb(158, 158, 5);
   border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+  margin: 30px;
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+  width: 400px;
+  height: 600px;
+  
+  
+}
+.flexbox{
+  width: 80px;
+  height: 600px;
+
+
+}
+.kate{
+  width: 60px;
+  height: 60px;
+  
+}
+.box{
+  background-color: rgb(29, 29, 66);
+  color: #f3eeee;
+  width: 80px;
+  height: 200px;
+  border-radius: 20px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+.box .color1{
+  width: 80px;
+  height: 40px;
+  background-color: indianred;
+  border-radius: 20px;
+}
+.box .color3 {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(23, 133, 118);
+  border-radius: 20px;
+}
+.box  .color4 {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(78, 6, 78);
+  border-radius: 20px;
+}
+.box  .color5 {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(248, 43, 248);
+  border-radius: 20px;
+}
+.box  .color6 {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(158, 158, 5);
+  border-radius: 20px;
+}
+.box .color2 {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(45, 133, 23);
+  border-radius: 20px;
+}
+
+.box .menu .wrk {
+  margin-top: -5px;
+  padding-right:1px;
+  font-size: 15px;
+
+}
+.wrk{
+  margin-right: 5px;
+  padding-right: 17px;
+}
+
+.box h1{
+  font: 1em sans-serif;
+  font-size: larger;
+  margin-right: 0px;
+}
+.dot {
+  margin-top: 10px;
+  padding-left: 1px;
+  width: 3px;
+  height: 5px;
+  font-size: larger;
+  border-radius: 20px;
+  font-weight: bolder;
+  
+}
+.dot2 {
+  margin-top: 10px;
+  padding-left: 2px;
+  width: 3px;
+  height: 5px;
+  font-size: larger;
+  border-radius: 20px;
+  font-weight: bolder;
+  
+}
 }

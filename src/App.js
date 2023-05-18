@@ -68,7 +68,9 @@ function App() {
         <div className="box">
           <div className="color4"></div>
           <div className="menu">
-            <div className="wrk">Social</div>
+            <div className="wrk">
+              Social
+            </div>
             <div className="dot2">
               <span>.</span>
               <span>.</span>
